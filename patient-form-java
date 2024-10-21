@@ -1,0 +1,28 @@
+/*
+    Program Name: homework1-patient-form.js
+    Name: Catherine Do
+    Date created: 9/18/2024
+    Date last updated:
+    Purpose: Homework 1 JS Assignment
+    Version: 1.0
+*/
+
+
+
+
+const d = new Date();
+let text = d.toLocaleDateString();
+document.getElementById("today").innerHTML = text;
+
+
+
+
+let slider = document.getElementById("range")
+    let output = document.getElementById("range-slider")
+    output.innerHTML = slider.value;
+
+
+    slider.oninput = function () {output.innerHTML = this.value;};
+
+
+
